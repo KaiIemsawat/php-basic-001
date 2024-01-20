@@ -19,21 +19,28 @@
 
     // registerUser("Zukkii@titann.com");
 
-    function sum($n1 = 4, $n2 = 5) {
-        return $n1 + $n2;
-    };
-    $sumNumber = sum();
-    echo $sumNumber;
+    // function sum($n1 = 4, $n2 = 5) {
+    //     return $n1 + $n2;
+    // };
+    // $sumNumber = sum();
+    // echo $sumNumber;
     
-    echo '<br>';
+    // echo '<br>';
     
-    $subtract = function($n1, $n2) {
-        return $n1 - $n2;
-    };
-    echo $subtract(32, 12 );
+    // $subtract = function($n1, $n2) {
+    //     return $n1 - $n2;
+    // };
+    // echo $subtract(32, 12 );
     
-    echo '<br>';
+    // echo '<br>';
     
-    $multi = fn($n1, $n2) => $n1 * $n2;
-    echo $multi(3, 6);
+    // $multi = fn($n1, $n2) => $n1 * $n2;
+    // echo $multi(3, 6);
+
+    function happyBirthday($name) {;
+        echo "Happy Birthday {$name}";
+    }
+
+    happyBirthday("Someone");
+
 ?>
