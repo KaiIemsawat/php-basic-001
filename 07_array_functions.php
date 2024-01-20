@@ -56,4 +56,17 @@
 
     $sum = array_reduce($numbers, fn($carry, $number) => $carry + $number); // to sum all numbers in an array
     var_dump($sum);
+
+    $capitals = array(
+        "USA" => "Washington D.C.",
+        "Japan" => "Tokyo",
+        "South Korea" => "Seoul",
+        "India" => "New Delhi"
+    );
+
+    $capitals["China"] = "Beijing";
+
+    foreach($capitals as $key => $value) {
+        echo "{$key} = {$value} | ";
+    }
 ?>
